@@ -12,7 +12,7 @@
     "migrate:rollbackall": "knex migrate:rollback --all",
     "seed": "knex seed:run --knexfile ./knexfile.ts",
     "test": "jest",
-    "build": "CI = false tsc"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
