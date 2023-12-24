@@ -6,11 +6,9 @@ const config: { [key: string]: Knex.Config } = {
   development: {
     client: "postgresql",
     connection: {
-      database: "railway",
+      database: "db_cars_orm",
       user: "postgres",
-      password: "f-6E4cAcEcbb6eF1EBC-2eBdgCa1e15E",
-      port: 22823,
-      host: "viaduct.proxy.rlwy.net",
+      password: "admin",
     },
     pool: {
       min: 2,
@@ -58,3 +56,9 @@ const config: { [key: string]: Knex.Config } = {
 };
 
 module.exports = config;
+
+// database: "railway",
+// user: "postgres",
+// password: "f-6E4cAcEcbb6eF1EBC-2eBdgCa1e15E",
+// port: 22823,
+// host: "viaduct.proxy.rlwy.net",
